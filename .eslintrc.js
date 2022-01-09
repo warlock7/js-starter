@@ -19,7 +19,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ['error'],
-    'no-console': 1,
+    'no-console': 0,
     'arrow-body-style': 0,
     'no-underscore-dangle': 0,
     'prefer-destructuring': ['error', { object: true, array: false }],
