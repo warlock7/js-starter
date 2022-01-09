@@ -9,6 +9,10 @@
     "lint:fix": "eslint --fix --max-warnings=0 .",
     "prettier:check": "prettier --check '**/*.{js}'"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warlock7/js-starter.git"
+  },
   "author": "George",
   "license": "ISC",
   "devDependencies": {
