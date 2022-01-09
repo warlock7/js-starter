@@ -4,10 +4,11 @@
   "description": "JS starter templates",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node -r dotenv/config index.js",
+    "start": "babel-node -r dotenv/config src/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix --max-warnings=0 .",
-    "prettier:check": "prettier --check '**/*.{js}'"
+    "prettier:check": "prettier --check '**/*.{js}'",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,15 @@
     "@babel/node": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
     "@babel/register": "^7.16.7",
+    "@commitlint/cli": "^16.0.2",
+    "@commitlint/config-conventional": "^16.0.0",
     "eslint": "^8.6.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
     "prettier": "^2.5.1"
   },
   "dependencies": {
