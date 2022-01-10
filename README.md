@@ -1,6 +1,6 @@
 # js-starter
 
-js-starter files is a starter setup with eslint, prettier, git commitlint, babel and webpack configs.
+js-starter is a starter setup with eslint, prettier, git commitlint, babel and webpack configs.
 
 # Contributing
 
